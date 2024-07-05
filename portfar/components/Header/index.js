@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll'
-
 class Header extends Component {
 
     state = {
@@ -21,9 +20,6 @@ class Header extends Component {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <Link className="navbar-brand" to="home">
-                                <img src='images/logo.png' alt="" />
-                            </Link>
                         </div>
                         <div id="navbar" className={this.state.isOpen ? "navbar-collapse navigation-holder active" : "navbar-collapse navigation-holder"}>
                             <button className="close-navbar" onClick={() => this.setState({ isOpen: false })}>
@@ -33,11 +29,6 @@ class Header extends Component {
                                 <i className="fa fa-times" aria-hidden="true"></i>
                             </button>
                             <ul className="nav navbar-nav">
-                                <div className="navbar-header">
-                                    <Link className="navbar-brand" to="home">
-                                        <img src='images/logo.png' alt="" />
-                                    </Link>
-                                </div>
                                 <li className="home">
                                     <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} >Home</Link>
                                 </li>

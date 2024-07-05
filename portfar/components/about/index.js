@@ -1,20 +1,22 @@
 import React from 'react'
+import Image from 'next/image';
+import banner from '../../public/Images/banner.png'
 
 const About = (props) => {
 
     return(
         <section id="about" className="tp-about-section">
             <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-5 col-md-12 col-12">
-                        <div className="tp-about-wrap">
+                <div className="rrow d-flex align-items-stretch">
+                    <div className="col-lg-5 col-md-12 col-12 d-flex">
+                        <div className="tp-about-wrap flex-fill">
                         <div className="tp-about-img">
-                            <img src="images/about.jpg" alt=""/>
+                            <Image src={banner} alt=""/>
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-12 col-12">
-                        <div className="tp-about-text">
+                    <div className="col-lg-7 col-md-12 col-12 d-flex">
+                        <div className="tp-about-text flex-fill">
                         <div className="tp-about-icon">
                             <i className="fi flaticon-web-design"></i>
                         </div>

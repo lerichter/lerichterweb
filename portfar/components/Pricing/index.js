@@ -34,7 +34,7 @@ class PricingPlan extends Component {
                                             <li>Suporte em horário comercial</li>
                                             <li>Parcelamento em até 6x sem juros</li>
                                         </ul>
-                                        <Link href="/" className="template-btn">Order Now</Link>
+                                        <Link href="https://wa.me/5511940006232?text=Ol%C3%A1!%20Quero%20fechar%20um%20site%20em%20wordpress.%20Pode%20me%20ajudar?" className="template-btn">Solicite Agora</Link>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -53,7 +53,7 @@ class PricingPlan extends Component {
                                             <li>Suporte em horário comercial</li>
                                             <li>Parcelamento em até 8x sem juros</li>
                                         </ul>
-                                        <Link href="/" className="template-btn">Order Now</Link>
+                                        <Link href="https://wa.me/5511940006232?text=Ol%C3%A1!%20Quero%20fechar%20um%20site%20em%20javascript.%20Pode%20me%20ajudar?" className="template-btn">Solicite Agora</Link>
                                     </div>
                                 </div>
                                 <div className="grid">
@@ -64,7 +64,7 @@ class PricingPlan extends Component {
                                         <p>Personalizado</p>
                                     </div>
                                     <div className="pricing-body">
-                                        <h2><sup>R$</sup>a consultar</h2>
+                                        
                                         <ul>
                                             <li>Design Criativo</li>
                                             <li>Desenvolvimento Web</li>
@@ -73,7 +73,7 @@ class PricingPlan extends Component {
                                             <li>Suporte 24/7</li>
                                             <li>Parcelamento em até 10x sem juros</li>
                                         </ul>
-                                        <Link href="/" className="template-btn">Order Now</Link>
+                                        <Link href="https://wa.me/5511940006232?text=Ol%C3%A1!%20Quero%20fechar%20um%20site%20personalizado.%20Pode%20me%20ajudar?" className="template-btn">Consulte Preço</Link>
                                     </div>
                                 </div>
                             </div>
