@@ -1556,49 +1556,28 @@ button:focus {
 }
 .tp-about-section .tp-about-wrap .tp-about-img img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;  
 }
-.tp-about-section .tp-about-wrap .tp-about-img .tp-ab-shape-1 {
-  position: absolute;
-  left: -60px;
-  top: -60px;
-  z-index: -1;
-}
-.tp-about-section .tp-about-wrap .tp-about-img .tp-ab-shape-2 {
-  position: absolute;
-  right: -35px;
-  bottom: -35px;
-  z-index: 11;
-}
 .tp-about-section .tp-about-text {
-  padding-left:60px;
+  padding-left: 60px;
 }
-@media(max-width:1500px){
-  .tp-about-section .tp-about-text {
-    padding-left:0px;
-    padding-right: 30px;
-  }
-  .tp-about-section .tp-about-text p{
-    font-size: 14px;
-  }
-}
-@media(max-width:1400px){
-  .tp-about-section .tp-about-text {
-    padding-left:0px;
-  }
-}
-@media(max-width:1200px){
-  .tp-about-section .tp-about-text {
-    padding-right: 0px;
-  }
-}
+
 @media(max-width:991px){
   .tp-about-section .tp-about-text {
-    padding-left:0px;
+    padding-left: 0px;
     padding-right: 0px;
+    text-align: center;
+  }
+  .tp-about-section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+  .tp-about-wrap {
+    margin-bottom: 20px;
   }
 }
+
 .tp-about-section .tp-about-text .tp-about-icon {
   width: 50px;
   height: 50px;
@@ -1607,7 +1586,7 @@ button:focus {
   text-align: center;
   border-radius: 6px;
 }
-.tp-about-section .tp-about-text .tp-about-icon .fi:before{
+.tp-about-section .tp-about-text .tp-about-icon .fi:before {
   font-size: 30px;
 }
 .tp-about-section .tp-about-text .tp-about-icon img {
@@ -1623,26 +1602,14 @@ button:focus {
 
 @media(max-width:1500px){
   .tp-about-section .tp-about-text h2 {
-    font-size:40px;
+    font-size: 40px;
   }
-  
 }
 
 @media(max-width:1400px){
   .tp-about-section .tp-about-text h2 {
-    font-size:35px;
+    font-size: 35px;
     margin: 20px 0;
-  }
-  
-}
-@media(max-width:991px){
-  .tp-about-section .tp-about-wrap .tp-about-img{
-    margin: 0;
-    margin-bottom: 40px;
-  }
-  .tp-about-section {
-      padding-top: 80px;
-      padding-bottom: 120px;
   }
 }
 
@@ -1656,12 +1623,11 @@ button:focus {
 }
 
 @media(max-width:1500px){
-
-  .tp-about-section .tp-about-text .signeture{
+  .tp-about-section .tp-about-text .signeture {
     padding-top: 0;
   }
-  
 }
+
 
 /* skill-area */
 
