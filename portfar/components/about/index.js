@@ -22,8 +22,8 @@ const About = (props) => {
                             <div className="tp-about-icon-content">
                                 <h2>Inovação e Tecnologia ao Seu Alcance</h2>
                                 <p>Nossa empresa é formada por especialistas em desenvolvimento web e apaixonados por tecnologia. <br></br>
-                                Com anos de experiência na criação de soluções digitais inovadoras, ajudamos empresas a transformar suas ideias em realidade através de sites modernos, funcionais e visualmente atraentes. <br></br>
-                                Com uma abordagem centrada no cliente, garantimos que cada projeto seja desenvolvido com excelência e atenção aos detalhes.<br></br><br></br>
+                                Com anos de experiência na criação de soluções digitais inovadoras, ajudamos empresas a transformar suas ideias em realidade através de sites modernos, funcionais e visualmente atraentes. 
+                                Utilizando uma abordagem centrada no cliente, garantimos que cada projeto seja desenvolvido com excelência e atenção aos detalhes.<br></br><br></br>
                                 Se você busca uma presença digital forte e impactante, estamos aqui para ajudar! <br></br>
                                 Vamos transformar o seu projeto em um sucesso. <br></br><br></br>
                                 Entre em contato e descubra como posso contribuir para o crescimento do seu negócio.</p>
